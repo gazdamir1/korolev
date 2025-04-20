@@ -11,6 +11,11 @@
   display: flex; /* Добавляем flex для выравнивания */
   justify-content: center;
   gap: 10px;
+  @media (max-width: 768px) {
+    margin-top: 0;
+    padding: 0;
+    justify-content: start;
+  }
 }
 
 .container {
@@ -18,4 +23,8 @@
   width: 40%;
   background-color: #f0f0f0;
   border-radius: 10px;
+  @media (max-width: 768px) {
+    margin-top: 140px;
+    width: 100%;
+  }
 }
