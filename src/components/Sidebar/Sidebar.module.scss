@@ -8,8 +8,8 @@
   top: 80px; // Отступ сверху (высота шапки + отступ)
   align-self: flex-start;
   @media (max-width: 768px) {
-    top: 150px;
     width: 150px;
+    top: 68px;
   }
 }
 
