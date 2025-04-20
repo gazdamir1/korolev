@@ -45,6 +45,12 @@ h2 {
   }
 }
 
+h3 {
+  @media (max-width: 768px) {
+    font-size: 1.5rem;
+  }
+}
+
 p {
   margin-bottom: 1.2rem;
   font-size: 1.1rem;
@@ -73,7 +79,7 @@ ol {
 li {
   margin-bottom: 0.5rem;
   @media (max-width: 768px) {
-    font-size: 0.9rem;
+    font-size: 0.8rem;
   }
 }
 

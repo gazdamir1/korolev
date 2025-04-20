@@ -6,9 +6,9 @@ const Home = () => {
     <div className={styles.home}>
       <div className={styles.header}>
         <h1>Сергей Павлович Королёв</h1>
-        <div className={styles.subtitle}>
+        <p className={styles.subtitle}>
           Советский учёный, конструктор ракетно-космических систем
-        </div>
+        </p>
       </div>
       <div className={styles.imageContainer}>
         <img
@@ -64,7 +64,7 @@ const Home = () => {
               <li>
                 <strong>Супруги:</strong>
                 <ul>
-                  <li>Ксения Максимилиановна Винцентини (1931—1949)</li>
+                  {/* <li>Ксения Максимилиановна Винцентини (1931—1949)</li> */}
                   <li>Нина Ивановна Королёва</li>
                 </ul>
               </li>
