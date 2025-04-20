@@ -1,0 +1,21 @@
+.app {
+  display: flex;
+  min-height: 90vh;
+  position: relative; /* Добавляем для правильного позиционирования */
+}
+
+.content {
+  margin-top: 60px; /* Высота шапки */
+  flex-grow: 1;
+  padding: 20px;
+  display: flex; /* Добавляем flex для выравнивания */
+  justify-content: center;
+  gap: 10px;
+}
+
+.container {
+  padding: 0 20px;
+  width: 40%;
+  background-color: #f0f0f0;
+  border-radius: 10px;
+}
